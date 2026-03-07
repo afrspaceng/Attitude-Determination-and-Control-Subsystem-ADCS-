@@ -9,7 +9,7 @@ The main goal was to design it in a modular, well-structured way and also with f
 CODE STRUCTURE
 ================================================================================
 
-Main_Program/
+Main_Program.py
     └── The main script where initial propagation parameters are defined
         and the results are obtained directly.
 
@@ -39,4 +39,5 @@ Functions/
 CONTACT
 ================================================================================
 For any questions or suggestions, please, contact the author:  
-alexfr.192@gmail.com
+
+alejandrofr.spaceng@gmail.com
