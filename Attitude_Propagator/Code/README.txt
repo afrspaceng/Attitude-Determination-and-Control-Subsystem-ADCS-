@@ -1,0 +1,42 @@
+Attitude Propagator  
+Language: Python  
+Author: Alejandro Fernández Ruiz, Space Systems Engineer  
+
+This project implements an attitude propagator developed as part of the selection process for the Junior ADCS Engineer position at EnduroSat.  
+The main goal was to design it in a modular, well-structured way and also with functions as generic as possible to ensure future reusability.
+
+================================================================================
+CODE STRUCTURE
+================================================================================
+
+Main_Program/
+    └── The main script where initial propagation parameters are defined
+        and the results are obtained directly.
+
+Functions/
+    ├── Attitude_Kinematics/
+    │       └── Contains the function that computes the time derivative
+    │           of the state vector.
+    │
+    ├── Numerical_Schemes/
+    │       └── Includes a general numerical integration scheme (RK4) for
+    │           propagation.
+    │
+    ├── Quaternion_Operators/
+    │       └── Provides basic quaternion operations such as multiplication,
+    │           conjugation, and inversion.
+    │
+    ├── Rotations/
+    │       └── Contains functions for principal rotations around the x, y,
+    │           and z axes, as well as conversions between rotation
+    │           representations (DCM, Euler angles, and quaternions).
+    │
+    └── Solver/
+            └── The main solver that propagates the satellite’s attitude
+                over time and returns the state vector at each time step.
+
+================================================================================
+CONTACT
+================================================================================
+For any questions or suggestions, please, contact the author:  
+alexfr.192@gmail.com
