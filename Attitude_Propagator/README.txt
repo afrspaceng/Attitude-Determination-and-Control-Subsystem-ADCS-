@@ -2,7 +2,7 @@ Attitude Propagator
 Language: Python  
 Author: Alejandro Fernández Ruiz, Space Systems Engineer  
 
-The main goal is to design am attitude propagator in a modular, well-structured way and also with functions as generic as possible to ensure future reusability in control systems.
+The main goal is to design an attitude propagator in a modular, well-structured way and also with functions as generic as possible to ensure future reusability in control systems.
 
 ================================================================================
 CODE STRUCTURE
