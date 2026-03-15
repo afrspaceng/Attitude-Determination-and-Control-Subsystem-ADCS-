@@ -2,8 +2,7 @@ Attitude Propagator
 Language: Python  
 Author: Alejandro Fernández Ruiz, Space Systems Engineer  
 
-This project implements an attitude propagator developed as part of the selection process for the Junior ADCS Engineer position at EnduroSat.  
-The main goal was to design it in a modular, well-structured way and also with functions as generic as possible to ensure future reusability.
+The main goal is to design it in a modular, well-structured way and also with functions as generic as possible to ensure future reusability.
 
 ================================================================================
 CODE STRUCTURE
