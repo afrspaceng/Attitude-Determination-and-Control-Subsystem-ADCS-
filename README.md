@@ -4,22 +4,21 @@ To achieve this, the subsystem combines different elements. Sensors such as sun 
 
 A properly functioning ADCS is essential for many mission operations, including pointing antennas toward Earth for communication, orienting solar panels toward the Sun for power generation, stabilizing the spacecraft after deployment (detumbling), or directing scientific instruments toward specific targets. Because of this, ADCS sits at the intersection of dynamics, control theory, sensor modeling, estimation and spacecraft operations, making it one of the most mathematically and physically rich subsystems of a spacecraft.
 
-                     +---------------------------+
-                     |   Mission Requirements    |
-                     | (pointing, stability,    |
-                     |  maneuvering constraints) |
-                     +-------------+-------------+
-                                   |
-                                   v
-                     +---------------------------+
-                     |   Guidance / Target       |
-                     |   Desired Attitude        |
-                     | (reference quaternion or  |
-                     |  pointing direction)      |
-                     +-------------+-------------+
-                                   |
-                                   v
-
++---------------------------+
+|   Mission Requirements    |
+| (pointing, stability,     |
+|  maneuvering constraints) |
++-------------+-------------+
+              |
+              v
++---------------------------+
+|   Guidance / Target       |
+|   Desired Attitude        |
+| (reference quaternion or  |
+|  pointing direction)      |
++-------------+-------------+
+              |
+              v
 +----------------------+   +---------------------------+   +----------------------+
 |       Sensors        |-->|   Attitude Determination  |-->|      Controller      |
 |                      |   |   (Estimation Algorithms) |   |     (Control Law)    |
@@ -49,4 +48,4 @@ A properly functioning ADCS is essential for many mission operations, including 
                                                            +----------+-----------+
                                                                       |
                                                                       v
-                                                             Feedback to sensors
+                                                              Feedback to sensors
