@@ -4,4 +4,4 @@ To achieve this, the subsystem combines different elements. Sensors such as sun 
 
 For many mission operations, including pointing antennas toward Earth for communication, orienting solar panels toward the Sun for power generation, stabilizing the spacecraft after deployment (detumbling), or directing scientific instruments toward specific targets, ADCS subsystem is very important. Because of this, ADCS sits at the intersection of dynamics, control theory, sensor modeling, estimation and spacecraft operations, making it one of the most mathematically and physically rich subsystems of a spacecraft.
 
-![ADCS Block Diagram](images/Typical Spacecraft Control Structure.jpg)
+![ADCS Block Diagram](images/Typical_Spacecraft_Control_Structure.jpg)
