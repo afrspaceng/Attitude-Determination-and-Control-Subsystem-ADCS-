@@ -31,7 +31,7 @@ sol = Propagation(q0, omega0, time, dt, sim_input)
 # 3. Plots
 # -----------------------------
 
-# Define colors
+# Colors
 gris_1 = [0, 0.12, 0.25]
 gris_2 = [0.87, 0.72, 0.53]
 gris_3 = [0, 0.5, 0]
